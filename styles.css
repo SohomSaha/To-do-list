@@ -103,11 +103,11 @@ h2{
 .box li.done{
     background: #607d8b;
 }
-.box .li.done:after{
+.box li.done::after{
     content: '';
     position: absolute;
-    left: 10px;
-    width: 12px;
+    left: 12px;
+    width: 14px;
     height: 6px;
     border-left: 2px solid #fff;
     border-bottom: 2px solid #fff;
