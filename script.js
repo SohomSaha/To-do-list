@@ -3,7 +3,13 @@ let list=document.querySelector('#list');
 
 inputBx.addEventListener("keyup",function(event){
     if(event.key == "Enter"){
+        if (this.value=="")
+        {
+            alert("Empty task !! Please write something");
+        }
+        else{
         addItem(this.value)
+        }
         this.value=""
     }
 })
